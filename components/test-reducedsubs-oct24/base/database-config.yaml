@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-reducedsubs-oct24-database-config
+data:
+  VECTORDB_HOST: "test-reducedsubs-oct24-database"
+  VECTORDB_PORT: ""
